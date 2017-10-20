@@ -1,0 +1,157 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.21.1.0
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Vu Quang, QuangVu, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.21a
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 3 (build 300)
+Assembler:       Armasm.exe V5.06 update 3 (build 300)
+Linker/Locator:  ArmLink.exe V5.06 update 3 (build 300)
+Library Manager: ArmAr.exe V5.06 update 3 (build 300)
+Hex Converter:   FromElf.exe V5.06 update 3 (build 300)
+CPU DLL:         SARMCM3.DLL V5.21a
+Dialog DLL:      DCM.DLL V1.13.8.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.18.0
+Dialog DLL:      TCM.DLL V1.14.14.0
+ 
+<h2>Project:</h2>
+C:\Users\quang\OneDrive\MPU6050-HMC5883L\MDK-ARM\Project.uvprojx
+Project File Date:  03/25/2017
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 3 (build 300)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'Project'
+compiling system_stm32f4xx.c...
+compiling stm32f4xx_it.c...
+..\sensor\MPU6050.h(370): warning:  #1295-D: Deprecated declaration MPU6050_Initialize - give arg types
+  void MPU6050_Initialize();
+..\sensor\MPU6050.h(371): warning:  #1295-D: Deprecated declaration MPU6050_TestConnection - give arg types
+  
+ool MPU6050_TestConnection();
+..\sensor\MPU6050.h(374): warning:  #1295-D: Deprecated declaration MPU6050_GetFullScaleGyroRange - give arg types
+  uint8_t MPU6050_GetFullScaleGyroRange();
+..\sensor\MPU6050.h(377): warning:  #1295-D: Deprecated declaration MPU6050_GetFullScaleAccelRange - give arg types
+  uint8_t MPU6050_GetFullScaleAccelRange();
+..\sensor\MPU6050.h(381): warning:  #1295-D: Deprecated declaration MPU6050_GetSleepModeStatus - give arg types
+  
+ool MPU6050_GetSleepModeStatus();
+..\sensor\MPU6050.h(385): warning:  #1295-D: Deprecated declaration MPU6050_GetDeviceID - give arg types
+  uint8_t MPU6050_GetDeviceID();
+..\sensor\MPU6050.h(398): warning:  #1-D: last line of file ends without a newline
+  #endif /* __MPU6050_H */
+..\stm32f4xx_it.c: 7 warnings, 0 errors
+compiling main.c...
+..\sensor\MPU6050.h(370): warning:  #1295-D: Deprecated declaration MPU6050_Initialize - give arg types
+  void MPU6050_Initialize();
+..\sensor\MPU6050.h(371): warning:  #1295-D: Deprecated declaration MPU6050_TestConnection - give arg types
+  
+ool MPU6050_TestConnection();
+..\sensor\MPU6050.h(374): warning:  #1295-D: Deprecated declaration MPU6050_GetFullScaleGyroRange - give arg types
+  uint8_t MPU6050_GetFullScaleGyroRange();
+..\sensor\MPU6050.h(377): warning:  #1295-D: Deprecated declaration MPU6050_GetFullScaleAccelRange - give arg types
+  uint8_t MPU6050_GetFullScaleAccelRange();
+..\sensor\MPU6050.h(381): warning:  #1295-D: Deprecated declaration MPU6050_GetSleepModeStatus - give arg types
+  
+ool MPU6050_GetSleepModeStatus();
+..\sensor\MPU6050.h(385): warning:  #1295-D: Deprecated declaration MPU6050_GetDeviceID - give arg types
+  uint8_t MPU6050_GetDeviceID();
+..\sensor\MPU6050.h(398): warning:  #1-D: last line of file ends without a newline
+  #endif /* __MPU6050_H */
+..\sensor\HMC5883L.h(81): warning:  #1295-D: Deprecated declaration HMC5883L_Initialize - give arg types
+  void HMC5883L_Initialize();
+..\sensor\HMC5883L.h(82): warning:  #1295-D: Deprecated declaration HMC5883L_TestConnection - give arg types
+  
+ool HMC5883L_TestConnection();
+..\sensor\HMC5883L.h(85): warning:  #1295-D: Deprecated declaration HMC5883L_GetSampleAveraging - give arg types
+  uint8_t HMC5883L_GetSampleAveraging();
+..\sensor\HMC5883L.h(87): warning:  #1295-D: Deprecated declaration HMC5883L_GetDataRate - give arg types
+  uint8_t HMC5883L_GetDataRate();
+..\sensor\HMC5883L.h(89): warning:  #1295-D: Deprecated declaration HMC5883L_GetMeasurementBias - give arg types
+  uint8_t HMC5883L_GetMeasurementBias();
+..\sensor\HMC5883L.h(93): warning:  #1295-D: Deprecated declaration HMC5883L_GetGain - give arg types
+  uint8_t HMC5883L_GetGain();
+..\sensor\HMC5883L.h(97): warning:  #1295-D: Deprecated declaration HMC5883L_GetMode - give arg types
+  uint8_t HMC5883L_GetMode();
+..\sensor\HMC5883L.h(103): warning:  #1295-D: Deprecated declaration HMC5883L_GetLockStatus - give arg types
+  
+ool HMC5883L_GetLockStatus();
+..\sensor\HMC5883L.h(104): warning:  #1295-D: Deprecated declaration HMC5883L_GetReadyStatus - give arg types
+  
+ool HMC5883L_GetReadyStatus();
+..\main.c: 16 warnings, 0 errors
+assembling startup_stm32f4xx.s...
+compiling misc.c...
+compiling stm32f4xx_gpio.c...
+compiling stm32f4xx_rcc.c...
+compiling stm32f4xx_i2c.c...
+compiling HMC5883L.c...
+..\sensor\HMC5883L.h(81): warning:  #1295-D: Deprecated declaration HMC5883L_Initialize - give arg types
+  void HMC5883L_Initialize();
+..\sensor\HMC5883L.h(82): warning:  #1295-D: Deprecated declaration HMC5883L_TestConnection - give arg types
+  
+ool HMC5883L_TestConnection();
+..\sensor\HMC5883L.h(85): warning:  #1295-D: Deprecated declaration HMC5883L_GetSampleAveraging - give arg types
+  uint8_t HMC5883L_GetSampleAveraging();
+..\sensor\HMC5883L.h(87): warning:  #1295-D: Deprecated declaration HMC5883L_GetDataRate - give arg types
+  uint8_t HMC5883L_GetDataRate();
+..\sensor\HMC5883L.h(89): warning:  #1295-D: Deprecated declaration HMC5883L_GetMeasurementBias - give arg types
+  uint8_t HMC5883L_GetMeasurementBias();
+..\sensor\HMC5883L.h(93): warning:  #1295-D: Deprecated declaration HMC5883L_GetGain - give arg types
+  uint8_t HMC5883L_GetGain();
+..\sensor\HMC5883L.h(97): warning:  #1295-D: Deprecated declaration HMC5883L_GetMode - give arg types
+  uint8_t HMC5883L_GetMode();
+..\sensor\HMC5883L.h(103): warning:  #1295-D: Deprecated declaration HMC5883L_GetLockStatus - give arg types
+  
+ool HMC5883L_GetLockStatus();
+..\sensor\HMC5883L.h(104): warning:  #1295-D: Deprecated declaration HMC5883L_GetReadyStatus - give arg types
+  
+ool HMC5883L_GetReadyStatus();
+..\sensor\HMC5883L.c: 9 warnings, 0 errors
+compiling MPU6050.c...
+..\sensor\MPU6050.h(370): warning:  #1295-D: Deprecated declaration MPU6050_Initialize - give arg types
+  void MPU6050_Initialize();
+..\sensor\MPU6050.h(371): warning:  #1295-D: Deprecated declaration MPU6050_TestConnection - give arg types
+  
+ool MPU6050_TestConnection();
+..\sensor\MPU6050.h(374): warning:  #1295-D: Deprecated declaration MPU6050_GetFullScaleGyroRange - give arg types
+  uint8_t MPU6050_GetFullScaleGyroRange();
+..\sensor\MPU6050.h(377): warning:  #1295-D: Deprecated declaration MPU6050_GetFullScaleAccelRange - give arg types
+  uint8_t MPU6050_GetFullScaleAccelRange();
+..\sensor\MPU6050.h(381): warning:  #1295-D: Deprecated declaration MPU6050_GetSleepModeStatus - give arg types
+  
+ool MPU6050_GetSleepModeStatus();
+..\sensor\MPU6050.h(385): warning:  #1295-D: Deprecated declaration MPU6050_GetDeviceID - give arg types
+  uint8_t MPU6050_GetDeviceID();
+..\sensor\MPU6050.h(398): warning:  #1-D: last line of file ends without a newline
+  #endif /* __MPU6050_H */
+..\sensor\MPU6050.c: 7 warnings, 0 errors
+linking...
+Program Size: Code=2588 RO-data=424 RW-data=24 ZI-data=1040  
+".\Project\Project.axf" - 0 Error(s), 39 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.0.0-Beta12.pack
+                ARM::CMSIS:CORE:5.0.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.0.0
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\quang\OneDrive\MPU6050-HMC5883L\MDK-ARM\RTE
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include
+  C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.10.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.0.0
+Build Time Elapsed:  00:00:06
+</pre>
+</body>
+</html>
